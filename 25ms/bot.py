@@ -31,7 +31,7 @@ import urllib.parse
 is_localhost=False
 
 ssl_context = ssl.create_default_context(cafile=certifi.where())
-ownerid = 1123674631266639914
+ownerid = 209741563213905920
 ApiToken = "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"
 intents = discord.Intents.all()
 
@@ -2481,7 +2481,7 @@ class MyClient(discord.Client):
 if __name__ == "__main__":
     client = MyClient(intents=intents)
 
-    enter_token_here = None
+    enter_token_here = 'MTQ5NjAyODM2ODAwNzg1NjEyOA.Glxmf2.QV7gzEP3lLpxCqr9akP2l7H3_e-3uIAqx6j53s'
 
     if not enter_token_here:
         print("PLEASE ENTER A TOKEN!! CHANGE THE = None line to = 'TOKEN'")
